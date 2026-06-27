@@ -39,8 +39,8 @@
         <span class="stat-label">image model test accuracy</span>
       </div>
       <div class="stat">
-        <span class="stat-num">5</span>
-        <span class="stat-label">end-to-end projects on GitHub</span>
+        <span class="stat-num">#79</span>
+        <span class="stat-label">of 1,773 &mdash; HackerRank Orchestrate</span>
       </div>
     </div>
   </header>
@@ -48,6 +48,25 @@
   <main>
     <section id="work">
       <h2><span class="sec-num">01</span> Selected work</h2>
+
+      <article class="case">
+        <div class="case-head">
+          <h3>Multi-Modal Evidence Review Pipeline</h3>
+          <span class="metric">Rank #79 / 1,773</span>
+        </div>
+        <p class="case-q">HackerRank Orchestrate, June 2026. Can a two-call pipeline adjudicate damage claims from photos alone?</p>
+        <p>
+          Built a production-style system that processes insurance-style damage claims
+          (car, laptop, package) by treating submitted images as the primary evidence.
+          One multimodal vision call extracts per-image findings, one text-only call
+          reasons over them. Everything else is deterministic: sufficiency gating, risk
+          flags, schema enforcement. Ran a controlled four-config experiment, shipped the
+          winner, and added multi-key failover with round-robin rotation for reliability
+          under quota limits.
+        </p>
+        <p class="tags">Python &middot; Gemini API &middot; prompt engineering &middot; multi-key failover</p>
+        <a class="case-link" href="https://github.com/fairozkhanofficial/hackerrank-orchestrate">View the code</a>
+      </article>
 
       <article class="case">
         <div class="case-head">
